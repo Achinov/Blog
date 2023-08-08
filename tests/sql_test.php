@@ -1,5 +1,5 @@
 <?php
-    require_once 'sql.php';
+    require_once '.. /core/sql.php';
 
     $id = 1;
     $nome = 'murilo';
