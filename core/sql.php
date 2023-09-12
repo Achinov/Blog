@@ -56,7 +56,7 @@ string $ordem = null) : string
     $instrucao .= " FROM {$entidade}";
 
     if(!empty($criterio)){
-        $instrucao .= 'WHERE';
+        $instrucao .= ' WHERE ';
         
         foreach($criterio as $expressao){
             $instrucao .= ' ' . implode(' ', $expressao);
