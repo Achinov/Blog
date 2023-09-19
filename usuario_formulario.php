@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Usuario | Projeto para Web com PHP</title>
+        <title>User | Project WEB using PHP</title>
         <link rel="stylesheet"
             href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
     </head>
@@ -71,7 +71,7 @@
                     </form>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="width: 100%;">
                 <div class="col-md-12">
                     <?php
                         include 'includes/rodape.php';
